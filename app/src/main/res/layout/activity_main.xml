@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#000"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- FRZ aka Faraz Sheikh   -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Tap To Scan QR Code"
+        android:id="@+id/butQR"
+        android:background="#FFDAA7"
+        android:textColor="#FF0000"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content"></Button>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/butQR"
+        android:layout_marginTop="100dp"
+        android:hint="Output Result Shows Here"
+        android:textSize="20dp"
+        android:id="@+id/qrcode"
+        android:textColor="#00E3FF"
+        android:textColorHint="#FF9800"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"></TextView>
+
+</RelativeLayout>
